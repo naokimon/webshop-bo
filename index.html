@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/style.css">
 
 <body>
-
-    <header class="hero">
+    <script src="js/button.js"></script>
+    <header class="hero" id="home">
         <div class="title">
             <h1>
                 The Velvet Room
@@ -22,19 +22,38 @@
 
         <nav class="title-nav">
             <ul>
-                <li>Home</li>
-                <li>Persona's</li>
-                <li>Attendants</li>
-                <li>Contact</li>
-                <li>FAQ</li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#persona-page">Persona's</a></li>
+                <li><a href="#">Attendants</a></li>
+                <li><a href="#">Find us</a></li>
+                <li><a href="#">FAQ</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="main-page">
-        <button>
-            Persona's
+        <div class="site-name">
+            <img src="img/velvet-room-icon.png" alt="">
+            <span>
+                The Velvet Room
+            </span>
+            <p>
+                "Welcome to the Velvet Room. This place exists between dream and reality, mind and matter."
+            </p>
+        </div>
+        <button onclick="scrollToSection('#persona-page')">
+            Continue..?
         </button>
+    </main>
+
+    <main class="persona-page" id="persona-page">
+        <div class="persona">
+            <img src="img/personas/Izanagi-No-OkamiBO.png" alt="izanagi-no-okami">
+            <span>
+                Izanagi No Okami
+            </span>
+
+        </div>
     </main>
 </body>
 

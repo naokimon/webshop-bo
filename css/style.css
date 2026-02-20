@@ -18,11 +18,10 @@
 }
 
 body, html{
-    width: 100vw;
-    height: 100vh;
     font-family: "Mongolian Baiti";
     background-color: var(--background-color);
     color: var(--text-color);
+    scroll-behavior: smooth;
 }
 
 .hero{
@@ -64,7 +63,11 @@ body, html{
 .main-page{
     display: flex;
     flex-direction: column;
-    padding: 5rem
+    padding: 5rem;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+    gap: 20vh;
 }
 
 .slideshow{
@@ -94,4 +97,61 @@ body, html{
     color: black;
     border: black solid 2px;
     cursor: pointer;
+}
+
+a{
+    color: var(--text-color);
+}
+
+a:hover{
+    color: var(--secondary-color)
+}
+
+.site-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.8vh;
+}
+
+.site-name img{
+    width: 200px;
+}
+
+.site-name span{
+    font-size: 5rem;
+}
+
+.site-name p{
+    color: rgba(255, 255, 255, 0.67);
+}
+
+.persona-page{
+    display: flex;
+    justify-content: center;
+    border-top: var(--primary-color) 1vh solid;
+    height: 100vh;
+    padding: 2.5rem;
+}
+
+.persona{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    height: 48.25vh;
+    width: 20vw;
+    background-color: var(--primary-color);
+}
+
+.persona img{
+    width: 200px;
+    
+    border-radius: 5px;
+}
+
+.persona span{
+    text-align: left;
 }
