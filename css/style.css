@@ -1,0 +1,97 @@
+:root{
+    --background-color: #0a0084;
+    --primary-color: #1303c3;
+    --secondary-color: #d3fe28; 
+    --border-color: #f7fdfd;
+    --text-color: #f7fdfd;
+}
+
+@font-face {
+    font-family: "Mongolian Baiti";
+    src: url(../fonts/monbaiti.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    width: 100vw;
+    height: 100vh;
+    font-family: "Mongolian Baiti";
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 15vh;
+    box-shadow: 10px 20px 50px rgb(0, 22, 103);
+    background-color: var(--primary-color);
+    font-size: 0.8rem;
+}
+
+.title{
+    font-size: 1.6rem;
+    margin-left: 1vw;
+    border-bottom: var(--border-color) solid 2px;
+    padding: 5px;
+    color: rgb(0, 19, 86)
+}
+
+.title p{
+    color: rgba(255, 255, 255, 0.67);
+}
+
+.title-nav{
+    font-size: 1.8rem;
+}
+
+.title-nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    gap: 2.5vw;
+    margin-right: 2.5vw
+}
+
+.main-page{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem
+}
+
+.slideshow{
+    display: flex;
+    padding: 25px;
+    justify-content: start;
+    align-items: center;
+    height: 40vh;
+    width: 40vw;
+    border: var(--border-color) solid 2px;
+    background-image: url(../img/velvet-room.jpg);
+    background-size: cover;
+}
+
+.main-page button{
+    font-size: 1.2rem;
+    width: 10vw;
+    height: 7.5vh;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 25px;
+}
+
+.main-page button:hover{
+    background-color: var(--secondary-color);
+    color: black;
+    border: black solid 2px;
+    cursor: pointer;
+}
