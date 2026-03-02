@@ -214,3 +214,23 @@ a:hover{
 .shopping-cart:hover{
     background-image: url(../img/green-shopping.png);
 }
+
+.attendant-page{
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+    height: 85vh;
+    align-items: center;
+    gap: 20vh;
+}
+
+.attendant-description{
+    width: 32.5vw;
+    font-size: 1.6rem;
+}
+
+.attendant-description h1{
+    border-top: var(--border-color) inset 3px;
+    border-right: var(--border-color) inset 3px;
+    padding: 5px;
+}
