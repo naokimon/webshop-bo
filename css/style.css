@@ -133,6 +133,7 @@ a:hover{
     padding: 2rem;
     gap: 2.5vw;
     flex-wrap: wrap;
+    margin-bottom: 2.5vh;
 }
 
 .persona{
@@ -233,4 +234,13 @@ a:hover{
     border-top: var(--border-color) inset 3px;
     border-right: var(--border-color) inset 3px;
     padding: 5px;
+}
+
+.footer{
+    display: flex;
+    height: 7.5vh;
+    background-color: var(--primary-color);
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem
 }
