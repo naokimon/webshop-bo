@@ -8,7 +8,7 @@ function loadPersona() {
   const persona = personas.find(p => p.id === id);
 
   if (!persona) {
-    document.querySelector(".product-page").innerHTML = "<p>Persona not found.</p>";
+    document.querySelector(".product-page").innerHTML = "<p>Persona not found.</p</br><p>Return back to Home</p>";
     return;
   }
 
