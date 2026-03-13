@@ -207,7 +207,7 @@ a:hover{
 .persona-options button:hover{
     cursor: pointer;
     border-color: var(--secondary-color);
-    transition: 0.75s ease;
+    transition: 0.75s;
 }
 
 .shopping-cart{
@@ -220,7 +220,7 @@ a:hover{
 
 .shopping-cart:hover{
     background-image: url(../img/green-shopping.png);
-    transition: 0.75s ease;
+    transition: 0.75s;
 }
 
 .attendant-page{
@@ -347,4 +347,234 @@ a:hover{
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+}
+
+/* voor de tablet op 1024px */
+@media (max-width: 1024px) {
+    .persona {
+        width: 28vw;
+    }
+
+    .persona-options button {
+        width: 18vw;
+    }
+
+    .main-page button {
+        width: 18vw;
+    }
+
+    .product-page {
+        gap: 2rem;
+    }
+
+    .product-display {
+        width: 45vw;
+    }
+
+    .product-description {
+        width: 45vw;
+    }
+}
+
+/* voor mobiel op 768px */
+@media (max-width: 768px) {
+
+    .hero {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+        gap: 0.75rem;
+        text-align: center;
+    }
+
+    .title {
+        margin-left: 0;
+        border-bottom: none;
+        border-top: var(--border-color) solid 2px;
+        padding-top: 0.5rem;
+    }
+
+    .title-nav {
+        font-size: 1.1rem;
+        width: 100%;
+    }
+
+    .title-nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.6rem 1.5rem;
+        margin-right: 0;
+        padding-bottom: 0.5rem;
+    }
+
+    .main-page {
+        height: auto;
+        min-height: 85vh;
+        padding: 3rem 1.5rem;
+        gap: 8vh;
+    }
+
+    .site-name span {
+        font-size: 2.8rem;
+        text-align: center;
+    }
+
+    .site-name p {
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+    .main-page button {
+        width: 55vw;
+        height: 6.5vh;
+        font-size: 1.1rem;
+    }
+
+    .persona-page {
+        height: auto;
+        padding: 1.5rem 1rem;
+        gap: 1.5rem;
+        justify-content: center;
+    }
+
+    .persona {
+        width: 80vw;
+        height: auto;
+        padding: 1.25rem;
+    }
+
+    .persona img {
+        max-height: 200px;
+        width: auto;
+    }
+
+    .persona-options button {
+        width: 55vw;
+        height: 48px;
+        font-size: 1rem;
+    }
+
+    .shopping-cart {
+        width: 44px;
+        height: 44px;
+    }
+
+    .product-page {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 2rem 1.25rem;
+        gap: 2rem;
+    }
+
+    .product-display {
+        width: 90vw;
+        height: 40vh;
+    }
+
+    .product-description {
+        width: 90vw;
+        height: auto;
+        gap: 1.5rem;
+    }
+
+    .description-options {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1rem;
+    }
+
+    .description-options button {
+        width: 100%;
+        height: 8vh;
+        font-size: 1.2rem;
+    }
+
+    .description-options a {
+        display: flex;
+        justify-content: center;
+    }
+
+    .shopping-cartdesc {
+        width: 44px;
+        height: 44px;
+    }
+
+    .attendant-page {
+        flex-direction: column;
+        height: auto;
+        padding: 2rem 1.25rem;
+        gap: 2rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .attendant img {
+        max-width: 60vw;
+    }
+
+    .attendant-description {
+        width: 90vw;
+        font-size: 1.2rem;
+    }
+
+    .attendant-description h1 {
+        border-right: none;
+        border-top: var(--border-color) inset 3px;
+        margin-bottom: 0.75rem;
+    }
+
+    .footer {
+        height: auto;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .title {
+        font-size: 1.1rem;
+    }
+
+    .title-nav {
+        font-size: 0.95rem;
+    }
+
+    .title-nav ul {
+        gap: 0.5rem 1rem;
+    }
+
+    .site-name span {
+        font-size: 2rem;
+    }
+
+    .site-name img {
+        width: 120px;
+    }
+
+    .persona {
+        width: 92vw;
+    }
+
+    .persona-options button {
+        width: 65vw;
+    }
+
+    .product-display {
+        width: 95vw;
+    }
+
+    .product-description {
+        width: 95vw;
+    }
+
+    .attendant img {
+        max-width: 80vw;
+    }
+
+    .attendant-description {
+        width: 95vw;
+        font-size: 1.1rem;
+    }
 }
