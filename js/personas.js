@@ -1,7 +1,7 @@
 const personas = [
     {
         id: "izanagi-no-okami",
-        name: "Izanagi-no-okami",
+        name: "Izanagi-No-Okami",
         image: "../img/personas/Izanagi-No-OkamiBO.png",
         arcana: "World",
         price: "¥370,000",

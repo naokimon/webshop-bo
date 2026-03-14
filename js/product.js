@@ -18,6 +18,7 @@ function loadPersona() {
   document.getElementById("persona-arcana").textContent = `Arcana: ${persona.arcana}`;
   document.getElementById("persona-price").textContent = `Buy now for ${persona.price}`;
   document.getElementById("persona-description").textContent = persona.description;
+  document.getElementById("persona-title").textContent = `The Velvet Room - ${persona.name}`
 
   const statsList = document.getElementById("persona-stats");
   statsList.innerHTML = "";
