@@ -211,6 +211,35 @@ a:hover{
     transition: 0.75s;
 }
 
+.sort-bar {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem 2.5rem 0 2.5rem;
+    font-size: 1.4rem;
+}
+
+.sort-bar select {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: var(--border-color) solid 2px;
+    border-radius: 10px;
+    padding: 0.4rem 1rem;
+    font-size: 1.2rem;
+    font-family: "Mongolian Baiti";
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.sort-bar select:hover {
+    border-color: var(--secondary-color);
+}
+
+.sort-bar select option {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
 .shopping-cart{
     width: 50px;
     height: 50px;
