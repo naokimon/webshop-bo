@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="weapon-title"></title>
+    <link rel="shortcut icon" href="../img/velvet-room-icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="title">
+            <h1>The Velvet Room</h1>
+            <p>What will you do?</p>
+        </div>
+        <nav class="title-nav">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html#persona-page">Persona's</a></li>
+                <li><a href="../index.html#weapons-page">Weapons</a></li>
+                <li><a href="attendants.html">Attendants</a></li>
+                <li><a href="secret.html">Find us</a></li>
+                <li><a href="shoppingcart.html"><div class="shopping-cart"></div></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="product-page">
+        <div class="product-display">
+            <img src="" alt="" id="weapon-image">
+        </div>
+
+        <section class="product-description">
+            <header>
+                <h1 id="weapon-name"></h1>
+            </header>
+
+            <div class="description">
+                <p class="product-type" id="weapon-type"></p>
+                <ul id="weapon-stats" class="weapon-stats">
+                </ul>
+            </div>
+
+            <div class="description-about">
+                <em><p id="weapon-description"></p></em>
+            </div>
+
+            <div class="description-options">
+                <button id="weapon-price"></button>
+                <a href="shoppingcart.html">
+                    <div class="shopping-cartdesc"></div>
+                </a>
+            </div>
+        </section>
+        <img id="weapon-indexImage" src="" alt="" style="display:none;">
+    </main>
+    <span id="cart-feedback" class="cart-feedback">
+                Added to cart!
+    </span>
+    <script src="../js/personas.js"></script>
+    <script src="../js/weapons.js"></script>
+    <script src="../js/cart.js"></script>
+    <script src="../js/weapon-product.js"></script>
+</body>
+</html>

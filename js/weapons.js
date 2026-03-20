@@ -10,7 +10,7 @@ const weapons = [
             attack: 53,
             accuracy: 92
         },
-        description: "The Imitation Katana is a sword wielded by various characters in Megami Tensei. Also known as Fake Sword."
+        description: `"The Imitation Katana is a sword wielded by various characters in Megami Tensei. Also known as Fake Sword."`
     },
     {
         id: "Monkey_Wrench",
@@ -23,7 +23,7 @@ const weapons = [
             attack: 40,
             accuracy: 90
         },
-        description: "Monkey Wrench is Yosuke's default weapon. It's also more commonly used on nuts and bolts..."
+        description: `"Monkey Wrench is Yosuke's default weapon. It's also more commonly used on nuts and bolts..."`
     },
     {
         id: "Adios_Shoes",
@@ -36,7 +36,7 @@ const weapons = [
             attack: 110,
             accuracy: 82
         },
-        description: "Adios Shoes are shoe weapons sold on Tanaka's Amazing Commodities. They are rumored to make you as fast as a puma. Increases agility by 3."
+        description: `"Adios Shoes are shoe weapons sold on Tanaka's Amazing Commodities. They are rumored to make you as fast as a puma. Increases agility by 3."`
     },
     {
         id: "Akisame_Fan",
@@ -49,7 +49,7 @@ const weapons = [
             attack: 180,
             accuracy: 50
         },
-        description: "The Akisame Fan is a fan weapon for Yukiko that Daidara creates from shadow parts. Doesn't seem sharp but don't judge a book by it's cover!"
+        description: `"The Akisame Fan is a fan weapon for Yukiko that Daidara creates from shadow parts. Doesn't seem sharp but don't judge a book by it's cover!"`
     },
     {
         id: "Folding_Chair",
@@ -62,7 +62,7 @@ const weapons = [
             attack: 45,
             accuracy: 95
         },
-        description: "The Folding Chair is Kanji's default starting weapon. Stolen from school grounds, who cares."
+        description: `"The Folding Chair is Kanji's default starting weapon. Stolen from school grounds, who cares."`
     },
     {
         id: "Assault_Spike",
@@ -75,7 +75,7 @@ const weapons = [
             attack: 240,
             accuracy: 93 
         },
-        description: "Assault Spike is a fist weapon used by Teddie that Daidara makes from Shadow parts. Never bought it myself, Teddie bench in 5."
+        description: `"Assault Spike is a fist weapon used by Teddie that Daidara makes from Shadow parts. Never bought it myself, Teddie bench in 5."`
     },
     {
         id: "Nambu_2",
@@ -88,7 +88,7 @@ const weapons = [
             attack: 80,
             accuracy: 95
         },
-        description: "The Nambu 2 is Naoto's default gun weapon. All of them should carry guns..."
+        description: `"The Nambu 2 is Naoto's default gun weapon. All of them should carry guns..."`
     },
     {
         id: "Kunai",
@@ -101,6 +101,6 @@ const weapons = [
             attack: 55,
             accuracy: 95
         },
-        description: "Kunai is a dagger weapon used by multiple people. Fast but weak."
+        description: `"Kunai is a dagger weapon used by multiple people. Fast but weak."`
     }
 ]

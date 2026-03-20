@@ -450,6 +450,14 @@ a:hover{
     font-size: 1.2rem;
 }
 
+.product-type{
+    font-size: 1.4rem;
+}
+
+.weapon-stats{
+    font-size: 1.4rem;
+}
+
 .description-about{
     font-size: 1.4rem;
 }
@@ -722,6 +730,31 @@ a:hover{
     color: black;
     border-color: black;
 }
+
+.secret-background{
+    height: 85vh;
+    width: 100vw;
+    background-image: url(../img/velvet-room-background.png);
+    background-size: cover;
+    opacity: 0.1;
+    position: absolute;
+}
+
+.secret-page{
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+    height: 85vh;
+    justify-content: center;
+    text-align: center;
+}
+
+.secret-secret{
+    opacity: 0.1;
+}
+
+
+
 
 @keyframes modalIn {
     from {
